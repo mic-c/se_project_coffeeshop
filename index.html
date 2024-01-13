@@ -3,39 +3,72 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="in the Triple Peaks Library">
-        <meta name="keywords" content="html, css, javascript">
-        <title>Triple Peaks Library</title>
+        <meta name="description" content="Coffe shop Landing page"/>
+        <meta name="keywords" content="html, css,">
         <meta name="author" content="Chukwuka Arimah">
-        <link rel="shortcut icon" href="favicon.ico"/>
+        <link rel="icon" type="image/x-icon" href="favicon.ico"/>
+        <title>Coffee Shop</title>
         <link rel="stylesheet" href="./vendor/normalize.css"/>
         <link rel="stylesheet" href="./pages/index.css"/>
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;
+700&family=Noto+Serif:ital@0;1&display=swap" rel="stylesheet">
     </head>
     <body>
         <div class="page">
-            <header class="header"></header>
+            <header class="header">
+    <nav class="nav">
+        <img src="./images/logo_coffeeshop_dark.svg" alt="Triple Espresso logo" class="nav__logo"/>
+        <ul class="nav__links">
+            <li>
+                <a href="" class="nav__link">Recipes</a>
+            </li>
+            <li>
+                <a href="" class="nav__link">Book a table</a>
+            </li>
+            <li>
+                <a href="" class="nav__link">Menu</a>
+            </li>
+            <li>
+                <a href="" class="nav__link">Contacts</a>
+            </li>
+        </ul>
+    </nav>
+        <h1 class="header__title"><span class="header__span-accent">Specialty Coffee</span> in the Triple Peaks Library</h1>
+        <p class="header__description">Welcome to our study Zone!
+            We've got the coffee to energize you and the cozy vibes to help you get creative.</p>
+            <section class="events">
+                <div class="events__content"></div>
+                <div class="events__cover">
+            <img src="./images/inside_coffee_shop.png" alt="Inside the Coffeeshop" class="events__image"/>
+                </div>
+            <div class="header__footer">
+                <div>
+                <p class="header__paragraph">Hours</p>
+                <p class="header__paragraph">Monday-Friday (10:00-19:00)</p>
+                <p class="header__paragraph">Saturday-Sunday (11:00-18:00)</p>
+                </div>
+                <p class="header__paragraph">200 Success Avenue,The Town of Triple Peaks</p>
+            </div>
+            </header>
             <main class="content">
-                <section class="Recipes">
-                    <section class="Book a table">
-                        <section class="Menu">
-                            <section class="Contacts"></section>
-                        </section>
-                    </section>
+                <section class="recipes">
+                    <h2 class="recipes"__title>Recipes</h2>
+                    <p class="recipes__subtitle">Check out some recipes we've collected for your home-brewing convenience:
+                    </p>
+                    <div class="recipes__videos">
+                        <iframe src="" frameborder="0" class="recipes__iframe"></iframe>
+                        <p class="recipes__videos-caption">Aeropress recipe ~5 min</p>
+                        <iframe src="" frameborder="0" class="recipes__iframe"></iframe>
+                        <p class="recipes__videos-caption">French press recipe ~15 min</p>
+                    </div>
+                </section>
+                <section class="reservation">
+                </section>
+                <section class="menu">
+                </section>
+                <section class="about">
                 </section>
             </main>
             <footer class="footer"></footer>
