@@ -55,10 +55,6 @@
     list-style-type: none;
 }
 
-.header__span-accent{
-    display: block;
-}
-
 .header__footer {
     display: flex;
     justify-content: space-between;
