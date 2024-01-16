@@ -90,8 +90,8 @@
 
 .recipes__videos {
     display: flex;
-    gap: 100;
-    justify-content: space-evenly;
+    gap: 100px;
+    justify-content: center
 }
 
 .recipes__videos-caption {
