@@ -69,13 +69,17 @@
     right: 80px;
     bottom: 40px;
     align-items: end;
-    color: #6f6f6f;
+    color: #838383;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
 }
 
 .header__span-accent {
     color: #2f80ed;
     left: 80px;
     max-width: 729px;
+    display: block;
 }
 
 .header__image {
@@ -89,7 +93,7 @@
 
 .recipes {
     padding: 100px 80px 215px;
-    color: #0A2750;
+    background-color: #0A2750;
 }
 
 .recipes__videos {
