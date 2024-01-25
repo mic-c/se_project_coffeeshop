@@ -1,0 +1,41 @@
+.footer {
+    box-sizing: border-box;
+    background: linear-gradient(180deg, #0A2850 0%, #071931 100%);
+    padding: 60px 80px 60px 80px;
+}
+
+.footer__content {
+    display: flex;
+}
+
+.footer__copyright {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 108px 0 0;
+}
+
+.footer__list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer__list-item {
+
+}
+
+.footer__logo {
+    width: 105px;
+    height: 39px;
+}
+
+.footer__social-icon {
+
+}
+
+.footer__social-link {}
+
+.footer__social-heading {
+    margin: auto
+}
