@@ -6,6 +6,7 @@
     padding: 0;
     margin: 0;
     border: none;
+    flex-direction: column;
 }
 
 .form__label {
@@ -27,6 +28,7 @@
 
 .form__input {
     display: block;
+    padding: 0;
     width: 100%;
     box-sizing: border-box;
     margin-top: 8px;

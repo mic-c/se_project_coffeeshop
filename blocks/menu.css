@@ -5,7 +5,6 @@
     background-repeat: no-repeat;
     background-position: center;
     align-items: center;
-    justify-content: center;
     display: flex;
     flex-direction: column;
 }
@@ -19,11 +18,13 @@
     line-height: 52px;
     font-style: normal;
     font-family: "Inter";
+    max-width: 780px;
 }
 
 .menu__subtitle {
     text-align: center;
     margin: 0 0 100px;
+    font-style: normal;
     font-weight: normal;
     font-size: 20px;
     line-height: 30px;
