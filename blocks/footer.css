@@ -16,7 +16,7 @@
 
 .footer__social-heading {
     display: flex;
-    font-family: "Inter", Arial, sans-serif;
+    font-family: "Inter";
     font-style: normal;
     font-weight: bold;
     justify-content: end;
@@ -54,7 +54,7 @@
     font-style: normal;
     align-items: center;
     display: flex;
-    font-family: "Inter", Arial, sans-serif;
+    font-family: "Inter";
     font-weight: normal;
 }
 
