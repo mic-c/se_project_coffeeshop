@@ -6,6 +6,8 @@
 
 .reservation__title {
     margin: 0 0 80px;
+    font-family: "Inter";
+    font-style: normal;
     text-align: center;
     font-weight: 500;
     font-size: 44px;

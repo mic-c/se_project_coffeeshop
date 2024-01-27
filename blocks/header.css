@@ -12,6 +12,8 @@
     max-width: 729px;
     font-size: 60px;
     font-weight: 500;
+    font-family: "Noto Serif";
+    font-style: italic;
     line-height: 72px;
     margin: 183px 0 0;
     letter-spacing: -0.6px;
@@ -21,11 +23,14 @@
     max-width: 683px;
     font-size: 20px;
     line-height: 30px;
+    font-family: "Inter";
+    font-weight: 500;
     margin: 28px 0 0;
 }
 
 .header__paragraph {
     margin: 0;
+    font-family: "Noto Serif";
     right: 80px;
     bottom: 40px;
     align-items: end;
@@ -46,6 +51,7 @@
     left: 80px;
     max-width: 729px;
     display: block;
+    font-family: "Noto Serif";
 }
 
 .header__image {

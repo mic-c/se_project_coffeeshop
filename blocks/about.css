@@ -28,6 +28,7 @@
 .about__title {
     margin: 0;
     font-style: normal;
+    font-family: "Inter";
     font-size: 44px;
     line-height: 52px;
     font-weight: 500;
@@ -40,6 +41,8 @@
     font-size: 20px;
     line-height: 30px;
     font-weight: 400;
+    font-style: normal;
+    font-family: "Noto Serif";
     max-width: 660px;
     z-index: 1;
     position: relative;

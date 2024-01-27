@@ -65,6 +65,8 @@
 
 .footer__copyright {
     font-weight: normal;
+    font-family: "Inter";
+    font-style: normal;
     font-size: 16px;
     line-height: 20px;
     margin: 108px 0 0;
