@@ -6,6 +6,8 @@
     display: flex;
     flex-direction: column;
     position: relative;
+    background-image: url(../images/background_header.svg);
+    z-index: 0;
 }
 
 .header__title {
@@ -13,7 +15,6 @@
     font-size: 60px;
     font-weight: 500;
     font-family: "Noto Serif";
-    font-style: italic;
     line-height: 72px;
     margin: 183px 0 0;
     letter-spacing: -0.6px;
@@ -23,7 +24,7 @@
     max-width: 683px;
     font-size: 20px;
     line-height: 30px;
-    font-family: "Inter";
+    font-family: "Inter", Arial, sans-serif;
     font-weight: 500;
     margin: 28px 0 0;
 }
@@ -52,6 +53,7 @@
     max-width: 729px;
     display: block;
     font-family: "Noto Serif";
+    font-style: italic;
 }
 
 .header__image {
