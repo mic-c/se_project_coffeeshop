@@ -8,13 +8,15 @@
     position: relative;
     background-image: url(../images/background_header.svg);
     z-index: 0;
+    background-size: cover;
+    box-sizing: border-box;
 }
 
 .header__title {
     max-width: 729px;
     font-size: 60px;
     font-weight: 500;
-    font-family: "Noto Serif";
+    font-family: Inter, Arial, sans-serif;
     line-height: 72px;
     margin: 183px 0 0;
     letter-spacing: -0.6px;
@@ -24,17 +26,13 @@
     max-width: 683px;
     font-size: 20px;
     line-height: 30px;
-    font-family: "Inter", Arial, sans-serif;
-    font-weight: 500;
+    font-family: "Noto Serif", "Times New Roman", serif;
     margin: 28px 0 0;
 }
 
 .header__paragraph {
     margin: 0;
-    font-family: "Noto Serif";
-    right: 80px;
-    bottom: 40px;
-    align-items: end;
+    font-family: "Inter", Arial, sans-serif;
     color: #838383;
     font-size: 16px;
     line-height: 20px;
@@ -45,14 +43,14 @@
     display: flex;
     justify-content: space-between;
     margin-top: auto;
+    align-items: end;
 }
 
 .header__span-accent {
     color: #2f80ed;
-    left: 80px;
     max-width: 729px;
     display: block;
-    font-family: "Noto Serif";
+    font-family: "Noto Serif", "Times New Roman", serif;
     font-style: italic;
 }
 
