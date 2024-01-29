@@ -13,6 +13,7 @@
 
 .card__title {
     margin: 0 0 32px;
+    font-family: "Inter", Arial, sans-serif;
 }
 
 .card__list-item {
@@ -22,7 +23,7 @@
     font-style: normal;
     margin-bottom: 16px;
     align-items: baseline;
-    font-family: "Noto serif";
+    font-family: "Noto serif", "Times New Roman", serif;
 }
 
 .card__list-divider {
