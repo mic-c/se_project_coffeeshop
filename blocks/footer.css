@@ -49,13 +49,13 @@
     font-size: 16px;
     line-height: 20px;
     opacity: 100%;
-    transition-duration: 5%;
     color: #fff;
     font-style: normal;
     align-items: center;
     display: flex;
     font-family: "Inter", Arial, sans-serif;
     font-weight: normal;
+    text-decoration: none;
 }
 
 .footer__social-link:hover {
