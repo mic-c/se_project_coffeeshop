@@ -49,6 +49,7 @@
     font-size: 16px;
     line-height: 20px;
     opacity: 100%;
+    transition-duration: 5s;
     color: #fff;
     font-style: normal;
     align-items: center;
