@@ -1,56 +1,55 @@
 .recipes {
-    padding: 100px 80px 215px;
-    background-color: #0a2750;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-image: url(../images/background_recipes.svg);
+  padding: 100px 80px 215px;
+  background-color: #0a2750;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/background_recipes.svg);
 }
 
 .recipes__title {
-    max-width: 580px;
-    margin: 0 0 24px;
-    font-family: "Inter", Arial, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 44px;
-    line-height: 52px;
-    color: #fff;
+  max-width: 580px;
+  margin: 0 0 24px;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  color: #fff;
 }
 
 .recipes__subtitle {
-    max-width: 438px;
-    margin: 0 0 80px;
-    font-family: "Noto Serif", "Times New Roman", serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 30px;
-    color: #fff;
-
+  max-width: 438px;
+  margin: 0 0 80px;
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #fff;
 }
 
 .recipes__videos {
-    display: flex;
-    gap: 40px;
-    justify-content: center;
-    margin: auto;
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  margin: auto;
 }
 
 .recipes__videos-caption {
-    display: flex;
-    justify-content: space-between;
-    margin: 24px 0 0;
-    font-family: "Inter", Arial, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 30px;
-    color: #fff;
+  display: flex;
+  justify-content: space-between;
+  margin: 24px 0 0;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #fff;
 }
 
 .recipes__iframe {
-    border: 0;
-    width: 480px;
-    height: 273px;
+  border: 0;
+  width: 480px;
+  height: 273px;
 }

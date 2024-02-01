@@ -1,35 +1,38 @@
 .card {
-    width: 540px;
+  width: 540px;
 }
 
 .card__list {
-    padding: 0;
-    list-style-type: none;
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .card__title {
-    margin: 0 0 32px;
-    font-family: "Inter", Arial, sans-serif;
+  margin: 0 0 32px;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 30px;
 }
 
 .card__list-item {
-    display: flex;
-    font-size: 16px;
-    line-height: 20px;
-    font-style: normal;
-    margin-bottom: 16px;
-    align-items: baseline;
-    font-family: "Noto serif", "Times New Roman", serif;
+  display: flex;
+  font-size: 16px;
+  line-height: 20px;
+  font-style: normal;
+  margin-bottom: 0;
+  align-items: baseline;
+  font-family: "Noto serif", "Times New Roman", serif;
 }
 
 .card__list-item:last-child {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .card__list-divider {
-    border-bottom: 1px solid black;
-    flex-grow:  1;
+  border-bottom: 1px solid black;
+  flex-grow: 1;
 }

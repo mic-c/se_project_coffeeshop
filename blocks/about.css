@@ -1,78 +1,76 @@
 @keyframes pulsate {
-    0% {
-        opacity: 0;
-    }
-    50% {
-        opacity: 0.6;
-    }
-    100% {
-        opacity: 0;
-        transform: scale(1.2);
-    }
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.2);
+  }
 }
 
 .about {
-    padding: 100px 80px 173px;
-    overflow: hidden;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 30px;
-    position: relative;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: space-between;
-    background-color: #0A2850;
+  padding: 100px 80px 173px;
+  overflow: hidden;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  background-color: #0a2850;
 }
 
 .about__title {
-    margin: 0;
-    font-style: normal;
-    font-family: "Inter", Arial, sans-serif;
-    font-size: 44px;
-    line-height: 52px;
-    font-weight: 500;
-    max-width: 251px;
-    z-index: 1;
-    position: relative;
-    color: #fff;
+  margin: 0;
+  font-style: normal;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 44px;
+  line-height: 52px;
+  font-weight: 500;
+  max-width: 251px;
+  z-index: 1;
+  position: relative;
+  color: #fff;
 }
 
 .about__content {
-    font-size: 20px;
-    line-height: 30px;
-    font-weight: 400;
-    font-style: normal;
-    font-family: "Noto Serif", "Times New Roman", serif;
-    max-width: 660px;
-    z-index: 1;
-    position: relative;
-    margin-top: 119px;
-    margin-bottom: 173px;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  font-family: "Noto Serif", "Times New Roman", serif;
+  max-width: 660px;
+  z-index: 1;
+  position: relative;
+  margin-top: 19px;
 }
 
 .about__paragraph {
-    margin: 0 0 20px;
-    font-size: 20px;
-    line-height: 30px;
-    font-style: normal;
-    color: #fff;
+  margin: 0 0 20px;
+  font-size: 20px;
+  line-height: 30px;
+  font-style: normal;
+  color: #fff;
 }
 
 .about__paragraph:last-child {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .about__circle {
-    background-color: #2f80ed;
-    width: 426px;
-    height: 426px;
-    position: absolute;
-    top: -152px;
-    left: -129px;
-    border-radius: 50%;
+  background-color: #2f80ed;
+  width: 426px;
+  height: 426px;
+  position: absolute;
+  top: -152px;
+  left: -129px;
+  border-radius: 50%;
 }
 
 .about__circle_animation_blurred {
-    animation: pulsate 1.3s infinite ease-in-out;
+  animation: pulsate 1.3s infinite ease-in-out;
 }
