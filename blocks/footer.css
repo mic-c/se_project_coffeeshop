@@ -1,78 +1,79 @@
 .footer {
-    box-sizing: border-box;
-    background: linear-gradient(180deg, #0A2850 0%, #071931 100%);
-    padding: 60px 80px 60px 80px;
+  box-sizing: border-box;
+  background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
+  padding: 60px 80px 60px 80px;
 }
 
 .footer__content {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer__logo {
-    width: 105px;
-    height: 39px;
+  width: 105px;
+  height: 39px;
 }
 
 .footer__social-heading {
-    display: flex;
-    font-family: "Inter", Arial, sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    justify-content: end;
-    margin: 0;
-    color: #fff;
-    margin-bottom: 20px;
-    font-size: 16px;
-    line-height: 20px;
+  display: flex;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  justify-content: end;
+  margin: 0;
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .footer__list {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 .footer__list-item {
-    list-style-type: none;
-    margin-bottom: 16px;
-    color: #fff;
+  list-style-type: none;
+  margin-bottom: 16px;
+  color: #fff;
 }
 
 .footer__social-icon {
-    width: 16px;
-    height: 16px;
-    margin-right: 10px;
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
 }
 
 .footer__social-link {
-    font-size: 16px;
-    line-height: 20px;
-    opacity: 100%;
-    transition-timing-function: 5s ease-in-out;
-    color: #fff;
-    font-style: normal;
-    align-items: center;
-    display: flex;
-    font-family: "Inter", Arial, sans-serif;
-    font-weight: normal;
-    text-decoration: none;
+  font-size: 16px;
+  line-height: 20px;
+  opacity: 100%;
+  transition-timing-function: 5s ease-in-out;
+  color: #fff;
+  font-style: normal;
+  align-items: center;
+  display: flex;
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: normal;
+  text-decoration: none;
 }
 
 .footer__social-link:hover {
-    color: #c1c1c1;
+  color: #c1c1c1;
+  opacity: 0.7;
 }
 
 .footer__copyright {
-    font-weight: normal;
-    font-family: "Inter", Arial, sans-serif;
-    font-style: normal;
-    font-size: 16px;
-    line-height: 20px;
-    margin: 108px 0 0;
-    color: #fff;
+  font-weight: normal;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 108px 0 0;
+  color: #fff;
 }
 
 .footer__list-item:last-child {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
