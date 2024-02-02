@@ -35,6 +35,8 @@
   border-radius: 4px;
   height: 60px;
   border: 1px solid #838383;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .form__button {
@@ -49,9 +51,10 @@
   border-radius: 4px;
   background-color: #2f80ed;
   color: #fff;
-  transition: all 0.4s ease-in-out;
+  transition: opacity 0.4s ease-in-out;
   border: 0;
   height: 60px;
+  cursor: pointer;
 }
 
 .form__button:hover {
